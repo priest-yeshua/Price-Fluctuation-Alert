@@ -7,7 +7,8 @@ drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
 
 [traps.price_fluctuation_alert]
 path = "out/PriceFluctuationAlert.sol/PriceFluctuationAlert.json"
-response_contract = "0x7c131190903F271f1B23f850af5F9C3110CBCcc7"
+trap_address = "0xFB57dD969B5854B893CB1F522ac799ecf9Ca8902"
+response_contract = "0x5764003aef4358993c099E747F61AF5028344865"
 response_function = "respondCallback(uint256)"
 cooldown_period_blocks = 33
 min_number_of_operators = 1
